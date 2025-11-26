@@ -1,0 +1,5 @@
+requests
+pyShortUrl
+discord
+discord.py
+py-cord
