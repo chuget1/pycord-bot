@@ -1,7 +1,7 @@
 import discord
 import asyncio
 import os
-
+from dotenv import load_env
 
 
 bot = discord.Bot(
@@ -34,4 +34,4 @@ if __name__ == '__main__': # import cogs from cogs folder
         bot.load_extension(extension)
         print(extension)
 
-bot.run("MTIyNDUwOTIzOTU3NDEzODg5MQ.Gm1v9T.Ic5cYi72MgfY2fZ0YyC1NimnQe5edJaVnMBiXU")  # bot token
+bot.run("secret")  # bot token
